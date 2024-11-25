@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>CHILLTRADE - Your Next Investment</title>
+
+    <style>
+
+        /* General Styles */
+
+        body {
+
+            font-family: Arial, sans-serif;
+
+            margin: 0;
+
+            padding: 0;
+
+            background: linear-gradient(to bottom, #6a11cb, #2575fc);
+
+            color: white;
+
+            text-align: center;
+
+        }
+
+        header {
+
+            padding: 20px;
+
+            background: linear-gradient(to right, #6a11cb, #2575fc);
+
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+        }
+
+        header h1 {
+
+            margin: 0;
+
+            font-size: 2.5em;
+
+        }
+
+        header p {
+
+            margin-top: 10px;
+
+            font-size: 1.2em;
+
+            opacity: 0.9;
+
+        }
+
+        nav {
+
+            padding: 10px 0;
+
+            background: rgba(0, 0, 0, 0.1);
+
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+
+        }
+
+        nav a {
+
+            margin: 0 15px;
+
+            text-decoration: none;
+
+            color: #ff6f61;
+
+            font-weight: bold;
+
+            transition: color 0.3s;
+
+        }
+
+        nav a:hover {
+
+            color: #ff9671;
+
+        }
+
+        .section {
+
+            padding: 40px 20px;
+
+            margin: 20px auto;
+
+            max-width: 800px;
+
+            background: rgba(255, 255, 255, 0.1);
+
+            border-radius: 10px;
+
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+
+        }
+
+        .section h2 {
+
+            color: #ff6f61;
+
+            margin-bottom: 20px;
+
+        }
+
+        .section p {
+
+            font-size: 1.1em;
+
+            line-height: 1.6;
+
+            margin-bottom: 20px;
+
+        }
+
+        .cta-button {
+
+            background: #ff6f61;
+
+            color: white;
+
+            padding: 10px 20px;
+
+            text-decoration: none;
+
+            font-size: 1.2em;
+
+            border-radius: 5px;
+
+            display: inline-block;
+
+            margin-top: 20px;
+
+            transition: background 0.3s;
+
+        }
+
+        .cta-button:hover {
+
+            background: #ff9671;
+
+        }
+
+        footer {
+
+            padding: 20px;
+
+            background: #333;
+
+            color: white;
+
+            text-align: center;
+
+        }
+
+        footer a {
+
+            color: #ff6f61;
+
+            text-decoration: none;
+
+        }
+
+        footer a:hover {
+
+            text-decoration: underline;
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <!-- Header Section -->
+
+    <header>
+
+        <h1>Welcome to CHILLTRADE</h1>
+
+        <p>Your gateway to the future of trading</p>
+
+    </header>
+
+
+
+    <!-- Navigation Section -->
+
+    <nav>
+
+        <a href="#about">About</a>
+
+        <a href="#stats">Live Stats</a>
+
+        <a href="#community">Community</a>
+
+        <a href="#buy">How to Buy</a>
+
+        <a href="#roadmap">Roadmap</a>
+
+    </nav>
+
+
+
+    <!-- About Section -->
+
+    <div class="section" id="about">
+
+        <h2>About CHILLTRADE</h2>
+
+        <p>CHILLTRADE is the latest cryptocurrency on the Solana network, designed to empower traders with seamless and profitable experiences. With cutting-edge technology and a passionate community, CHILLTRADE is here to revolutionize the world of trading.</p>
+
+    </div>
+
+
+
+    <!-- Live Stats Section -->
+
+    <div class="section" id="stats">
+
+        <h2>Live Stats</h2>
+
+        <p><strong>Price:</strong> $0.00007995</p>
+
+        <p><strong>Market Cap:</strong> $78K</p>
+
+        <p><strong>Liquidity:</strong> $39K</p>
+
+        <a href="#" class="cta-button">Trade Now</a>
+
+    </div>
+
+
+
+    <!-- Community Section -->
+
+    <div class="section" id="community">
+
+        <h2>Join the Community</h2>
+
+        <p>Be a part of our growing community of CHILLTRADE enthusiasts. Follow us on social media or join our Telegram group to stay updated on the latest news and developments.</p>
+
+        <a href="https://twitter.com/" target="_blank" class="cta-button">Follow on Twitter</a>
+
+        <a href="https://telegram.org/" target="_blank" class="cta-button">Join Telegram</a>
+
+    </div>
+
+
+
+    <!-- How to Buy Section -->
+
+    <div class="section" id="buy">
+
+        <h2>How to Buy CHILLTRADE</h2>
+
+        <p>Buying CHILLTRADE is simple:</p>
+
+        <ol>
+
+            <li>Install a Solana wallet like Phantom or Solflare.</li>
+
+            <li>Transfer SOL to your wallet.</li>
+
+            <li>Visit Raydium and search for CHILLTRADE.</li>
+
+            <li>Swap SOL for CHILLTRADE.</li>
+
+        </ol>
+
+        <a href="https://raydium.io/" target="_blank" class="cta-button">Buy on Raydium</a>
+
+    </div>
+
+
+
+    <!-- Roadmap Section -->
+
+    <div class="section" id="roadmap">
+
+        <h2>Our Roadmap</h2>
+
+        <p><strong>Phase 1:</strong> Launch and Initial Marketing</p>
+
+        <p><strong>Phase 2:</strong> Community Growth and Listings</p>
+
+        <p><strong>Phase 3:</strong> Advanced Features and Expansion</p>
+
+    </div>
+
+
+
+    <!-- Footer Section -->
+
+    <footer>
+
+        © 2024 CHILLTRADE. All rights reserved. <br>
+
+        <a href="#about">Back to Top</a>
+
+    </footer>
+
+</body>
+
+</html>
